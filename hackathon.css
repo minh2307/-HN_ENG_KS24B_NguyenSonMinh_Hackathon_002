@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #4B5563 !important;
+}
+.bars{
+    display: none;
+}
+.dl{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.men{
+    box-shadow: 40px 40px #E5E7EB;
+}   
+.gray{
+    background-color: #E5E7EB !important;
+    color: rgb(27, 25, 25) !important;
+    border: 0px;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+.gr{
+    background-color: #dadade !important;
+    padding-top: 10px;
+}
+footer{
+    background-color: #F9FAFB;
+    line-height: 48px;
+}
+@media screen and (max-width:768px) {
+    ul li{
+        display: none ;
+    }
+    nav{
+        position: relative;
+        padding: 20px 10px;
+    }
+    .bars{
+        display: inline;
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        top: -5px;
+        right: 10px;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .men{
+        box-shadow: 10px 10px 20px #626364;
+        margin-bottom: 80px;
+    }
+    .pic-men{
+        order: 1;
+        width: 100vw;
+    }
+    .content{
+        order: 2;
+        width: 100%;
+    }
+    .row{
+        order: 3;
+        text-align: center;
+        width: 100%;
+    }
+    /* .work{
+        order: 4;
+    } */
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pt-1{
+        order: 5;
+        width: 100%;
+    }
+    .btn-1{
+        order: 6;
+        width: 100%;
+    }
+    .pt-2{
+        order: 6;
+        width: 100%;
+    }
+    .btn-2{
+        order: 7;
+        width: 100%;
+    }
+    .java img{
+       width: 30%;
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
